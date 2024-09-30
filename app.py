@@ -22,7 +22,7 @@ def preprocess_review(review):
 def get_sentiment(review):
     return load_review_model().predict(preprocess_review(review))[0][0]
 
-st.title("MOVIE REVIEW SENTIMENT CLASSIFIER")
+st.title("MOVIE REVIEW CLASSIFIER")
 try:
     review = st.text_area(label='Enter a review')
     if st.button("SUBMIT"):

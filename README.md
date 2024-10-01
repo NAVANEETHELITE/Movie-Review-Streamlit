@@ -1,6 +1,6 @@
 # Movie Review Classifier
 
-This application predicts the sentiment (positive or negative) of a movie review using an RNN model, which was trained on the IMDb dataset.
+This application predicts the sentiment (positive or negative) of a movie review using SimpleRNN model, trained on the IMDb dataset.
 
 ## Project Structure
 - `model.h5`: The trained RNN model used for prediction.
